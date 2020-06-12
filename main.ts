@@ -100,6 +100,14 @@ bulletNum = 5
 let tmp = 0
 let time = game.runtime()
 game.onUpdate(function () {
+    if (game.runtime() - time >= recoverTime) {
+        if (bulletNum < 5) {
+            bulletNum += 1
+        }
+        time = game.runtime()
+    }
+})
+game.onUpdate(function () {
     if (tmp != bulletNum) {
         tmp = bulletNum
         if (bulletNum == 5) {
@@ -153,14 +161,6 @@ f f f f f
         }
     }
     recoverTime = 500 + Math.floor(info.score() / 10) * 500
-})
-game.onUpdate(function () {
-    if (game.runtime() - time >= recoverTime) {
-        if (bulletNum < 5) {
-            bulletNum += 1
-        }
-        time = game.runtime()
-    }
 })
 game.onUpdateInterval(800, function () {
     apple = sprites.create(img`
