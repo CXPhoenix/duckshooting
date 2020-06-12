@@ -66,11 +66,11 @@ f f f f f
 . . . . 3 
 3 3 3 3 3 
 `</field></shadow></value></block></statement><value name="IF3"><block type="logic_compare" id="qwH90u[dP48~5(K^vkI5"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="U3OWXZ^+zIN7?AZwY^OM"><field name="VAR" id="3A%;)q[U%LVTKUZOKgW~">bulletNum</field></block></value><value name="B"><shadow type="math_number" id="D$?[a:d3OY+{Up|3_a3y"><field name="NUM">2</field></shadow></value></block></value><statement name="DO3"><block type="spritesetimage" id="4niG#?zx.UB|{n^}*zBB"><value name="sprite"><block type="variables_get" id="rm#u#N0K3Q/+-:~KP7[V"><field name="VAR" id="Ad^b.,F,O@Ws7-iAN8Mb">bulNum</field></block></value><value name="img"><shadow type="screen_image_picker" id="NGjUbu;}]4._BTnG3^?l"><field name="img">img`
-2 2 2 2 2 
-. . . . 2 
-2 2 2 2 2 
-2 . . . . 
-2 2 2 2 2 
+3 3 3 3 3 
+. . . . 3 
+3 3 3 3 3 
+3 . . . . 
+3 3 3 3 3 
 `</field></shadow></value></block></statement><value name="IF4"><block type="logic_compare" id="n7T,od{EI[|g/`]sLRhC"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="M+{Rnbkhrds+Xb^{FL,O"><field name="VAR" id="3A%;)q[U%LVTKUZOKgW~">bulletNum</field></block></value><value name="B"><shadow type="math_number" id="t#l,vu%:-a1]j[u2gW@h"><field name="NUM">1</field></shadow></value></block></value><statement name="DO4"><block type="spritesetimage" id="^FHxt9S2LHss@K;3-rh5"><value name="sprite"><block type="variables_get" id="wO}KJs@_(kGZzX}qED.E"><field name="VAR" id="Ad^b.,F,O@Ws7-iAN8Mb">bulNum</field></block></value><value name="img"><shadow type="screen_image_picker" id=",({/t{(7p:W5/oc3^3%)"><field name="img">img`
 . . 2 . . 
 . 2 2 . . 

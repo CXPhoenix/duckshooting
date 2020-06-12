@@ -127,11 +127,11 @@ f f f f f
 `)
         } else if (bulletNum == 2) {
             bulNum.setImage(img`
-2 2 2 2 2 
-. . . . 2 
-2 2 2 2 2 
-2 . . . . 
-2 2 2 2 2 
+3 3 3 3 3 
+. . . . 3 
+3 3 3 3 3 
+3 . . . . 
+3 3 3 3 3 
 `)
         } else if (bulletNum == 1) {
             bulNum.setImage(img`
