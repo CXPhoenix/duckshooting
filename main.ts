@@ -27,14 +27,14 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Food, function (sprite, othe
     otherSprite.destroy(effects.coolRadial, 100)
     info.changeScoreBy(1)
     if (info.score() > 999) {
-        bulNum.setPosition(120, 4)
-        bullpic.setPosition(bulNum.x - 15, 4)
+        bulNum.setPosition(125, 4)
+        bullpic.setPosition(bulNum.x - 10, 4)
     } else if (info.score() > 99) {
-        bulNum.setPosition(130, 4)
-        bullpic.setPosition(bulNum.x - 15, 4)
+        bulNum.setPosition(132, 4)
+        bullpic.setPosition(bulNum.x - 10, 4)
     } else if (info.score() > 9) {
-        bulNum.setPosition(140, 4)
-        bullpic.setPosition(bulNum.x - 15, 4)
+        bulNum.setPosition(138, 4)
+        bullpic.setPosition(bulNum.x - 10, 4)
     }
 })
 let apple: Sprite = null
