@@ -25,6 +25,7 @@ f 5 5 5 5 f
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Food, function (sprite, otherSprite) {
     otherSprite.destroy(effects.coolRadial, 100)
+    sprite.destroy()
     info.changeScoreBy(1)
     if (info.score() > 999) {
         bulNum.setPosition(125, 4)
